@@ -1,0 +1,120 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Alegreya:400,400i');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:300,400');
+
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.seperator {
+    margin-top: 2em;
+}
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+    background: #EDEDED;
+}
+
+h1, h2, h3 {
+    font-family: 'Alegreya', serif;
+}
+
+#slider-section {
+    background: #25304D;
+    padding-bottom: 2.5em;
+}
+
+#main-header-section {
+    color: whitesmoke;
+    font-weight: lighter;
+    text-align: center;
+    background: #36456F;
+}
+
+#main-header-section h1 {
+    font-size: 2em;
+}
+
+#main-header-section div {
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+}
+
+#main-slider-title {
+    color: whitesmoke;
+    margin-top: 2em;
+    font-size: 3.5em;
+    font-family: 'Alegreya', serif;
+}
+
+#main-slider-details {
+    color: whitesmoke;
+    margin-top: 1em;
+    text-align: left;
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+
+#waste-management-background,
+#renewable-energy-background,
+#waste-water-treatment-background,
+#waste-to-energy-background,
+#consulting-background {
+    fill: transparent;
+    stroke: transparent;
+}
+
+#main-slider {
+    float: right;
+}
+
+#main-slider-learn-more {
+    display: inline-block;
+    color: whitesmoke;
+    text-align: center;
+    border: 1px solid whitesmoke;
+    border-radius: 2em;
+    margin-top: 2em;
+    padding: 1em;
+    width: 8em;
+    text-decoration: none;
+    
+    -moz-transition: width 0.5s;
+    -webkit-transition: width 0.5s;
+    transition: width 0.5s;
+}
+
+#main-slider-learn-more:hover {
+    width: 18em;
+}
+
+footer {
+    background: #2D395C;
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+
+#zh-author,
+#zh-author a {
+    color: #E6E6E6;
+    float: right;
+    font-size: 8pt;
+}
+
+#zh-author {
+    padding-right: 1em;
+}
+
+@media (max-width: 960px) {
+    #main-slider-container h1,
+    #main-slider-container > div > div {
+        text-align: center;
+    }
+    
+    #main-slider {
+        float: none !important;
+    }
+}
